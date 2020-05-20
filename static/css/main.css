@@ -1,0 +1,403 @@
+html{
+	overflow: scroll;
+}
+
+header{
+	padding: 3%;
+}
+
+nav{
+	text-align: right;
+	padding: auto;
+	position: relative;
+}
+
+nav a {
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 8px;
+
+}
+
+nav a img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.homeButton {
+	width:44px ;
+	left: 6%;
+}
+
+.homeButton:hover {
+/*    border-radius: 100px; */
+    border: 2px solid black;
+}
+
+.burgerButton {
+	width: 25px;
+}
+
+
+body{
+	height: 100%;
+	background: white;
+	font-family: futura;
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	background-color:white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #6e6e6e;
+	text-align: center;
+	font-size: 75%;
+	padding: 1.2%;
+}
+
+#loading-image {
+  position: absolute;
+  top: 300px;
+  left: 35%;
+  right: 35%;
+  z-index: 100;
+  width: 150px;
+  height: auto;
+}
+
+#loading {
+  position: absolute;
+  top: 300px;
+  left: 35%;
+  right: 35%;
+  z-index: 100;
+  width: 150px;
+  height: auto;
+}
+
+
+button{
+	background: #cfcfcf;
+	font-family: futura;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	font-size: 16px;
+	margin: 15px;
+}
+
+button:hover{
+	background: #6e6e6e;
+}
+
+button a{
+	color: #303030;
+}
+
+button a:hover{
+	color: #303030;
+}
+
+a{
+	color: #303030;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#startOverDiv{
+text-align: left;
+margin-left: -7%;
+}
+
+#likeThisDiv {
+/*background: blue;*/
+ /*margin-left: 70%;*/
+  margin-top: 20%;
+  margin-bottom: 10%
+  /*text-align: left;*/
+}
+
+#wontlikeThisDiv {
+
+  margin-top: 10%;
+  margin-bottom: 10%
+
+}
+
+#likeButtonDiv {
+  /*margin-bottom: 5%;*/
+  text-align: left;
+  margin-left: -15%;
+  /*margin-top: 10%;*/
+
+}
+
+#likeButtonDiv > button {
+  background: transparent;
+
+}
+
+#likeButtonDiv > button:focus {
+  outline:0;
+}
+
+
+/*#likeButtonDiv > button:hover {
+  cursor: pointer;
+  background-color: #FABD44;
+}*/
+
+
+#likeButtonDiv button img {
+  width: 50%;
+  height: 50%;
+}
+
+
+#submitButtonDiv {
+  /*margin-left: 10px;*/
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 10%;
+  border: none;
+
+}
+
+
+p{
+	font-size: 13px;
+	text-align: justify;
+	margin-right:20%;
+	margin-left: 20%;
+	padding-top: 1%;
+	margin-top: 0;
+	color: #303030;
+	/*height: 230px;*/
+
+}
+
+h2{
+	font-variant: bold;
+	font-size: 45px;
+	text-align: left;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0;
+
+}
+
+h3{
+	font-variant: bold;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0;
+}
+
+#yearPaintingDiv{
+	font-style: italic;
+	font-size: 15px;
+	text-align: left;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0;
+
+}
+
+
+#paintingNameDiv{
+	text-transform: capitalize;
+	/*font-variant: bold;*/
+	font-size: 20px;
+	text-align: left;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0;
+
+}
+
+#newArtistPathDiv{
+	text-transform: capitalize;
+	font-style: italic;
+	font-size: 15px;
+	text-align: left;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0;
+
+}
+
+
+
+.title{
+	position: fixed;
+	left: 30%;
+	bottom: 50%;
+	width: 100%;
+	font-size:400%;
+}
+
+.begin{
+	position: fixed;
+	left: 45%;
+	bottom: 35%;
+	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+/* Who are we? and Why? pages */
+
+.whoColumns{
+	column-count: 4;
+	margin-right:6%;
+	margin-left: 6%;
+
+}
+
+.whoColumns p{
+	text-align: justify;
+	margin-right:6%;
+	margin-left: 6%;
+}
+
+.whoColumns image{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow-wrap: all;
+}
+
+.whatWhyColumns{
+	column-count: 1;
+	margin-right:6%;
+	margin-left: 6%;
+	margin-bottom: 6%;
+
+}
+
+.whatWhyColumns p{
+	text-align: justify;
+	margin-right:24%;
+	margin-left: 24%;
+}
+
+/*  Dropdowns */
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContent{
+	text-align: center;
+	font-size: 14px;
+
+	right:0;
+	display: none;
+	position: absolute;
+	min-width: 180px;
+	background-color: #e6e6e6;
+	border-radius: 7%;
+
+}
+
+.dropdown:hover .dropdownContent{
+	display: block;
+}
+
+
+
+/* Button next to title for info */
+
+.title .dropdown:hover .dropdownContent{
+	overflow: scroll;
+	padding: 15px;
+	left: 0;
+	min-width: 300px;
+}
+
+/* Formateo adicional*/
+
+.grid-container
+{
+	text-align: center;
+/*	display: grid;
+	grid-template-columns: auto auto;*/
+	padding: 0px;
+	clear: both;
+	width: 80vw;
+	margin: auto;
+	/*justify-content: center;*/
+
+}
+
+.grid-item
+{
+	/*background: red;*/
+	float: left;
+	height: 80vh;
+	/*border: 1px solid rgba(0, 0, 0, 1.0);*/
+	padding: 15px;
+	font-size: 30px;
+	text-align: center;
+	overflow-wrap: normal;
+
+}
+.grid-item img
+{
+	height: auto;
+	width: 400px;
+
+}
+
+.grid-item-left
+{
+	width: 40vw;
+	margin-right: 1em;
+	margin-left: 15%;
+}
+.grid-item-right
+{
+	width: 20vw;
+}
+
+#outputImage {
+	/*margin-bottom: 50px;*/
+	margin-left: 3%;
+	height:auto;
+	width:600px;
+	text-align: right;
+
+}
+
+#painting1{
+	height:auto;
+	width:400px;
+
+	text-align: right;
+}
+
+
+
+
+
+
+

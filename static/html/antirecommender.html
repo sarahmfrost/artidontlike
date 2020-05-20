@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>art I don't like </title>
+
+  <meta charset="utf-8"/>
+    <meta name="viewport" content="width=devce-width, initial scale 1.0">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+
+  <link href="/static/css/main.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="/static/imgs/Toilets.png"/>
+</head>
+
+<body>
+
+ <header>
+  <nav>
+    <a href="/">
+      <img class ="homeButton" src="/static/imgs/logo3.png">
+    </a>
+
+    <div id="burgerIcon" class="dropdown">
+      <a>
+        <img class ="burgerButton" src="/static/imgs/burger.png">
+      </a>
+
+      <div class="dropdownContent">
+        <a href="what.html">what is this?</a>
+        <a href="who.html">who are we?</a> <br>
+        <a href="why.html">why did we make this?</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- <div id="YouLike">
+  <h3>Do you like this?</h3>
+</div> -->
+<div class="grid-container">
+
+  <div id="painting1" class="grid-item grid-item-left"></div>
+
+  <div id= "text" class="grid-item grid-item-right">
+
+   <div id="likeThisDiv">
+       <h3>do you like this?</h3>
+    </div>
+
+    <div id="likeButtonDiv">
+      <button id="likeButton"><img src="/static/imgs/like.png"></button>
+    </div>
+    <div id="likeButtonDiv">
+        <button id="dislikeButton"><img src="/static/imgs/dislike.png"></button>
+
+    <div id="submitButtonDiv">
+        <button id="submitButton">find art</button>
+    </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- loading gif while the network is running
+<div id="loading">
+  <img id="loading-image" src="/../static/imgs/ajax-loader.gif" alt="Loading..."/>
+</div> -->
+
+<div class="grid-container">
+
+  <img id="outputImage" class="grid-item grid-item-left">
+
+  <div id="textResult" class="grid-item grid-item-right">
+
+    <div id="wontlikeThisDiv">
+       <h2>you're going to hate this.</h2>
+    </div>
+
+    <div id="paintingNameDiv">
+      <div id="newPaintingName">
+      </div>
+    </div>
+
+    <div id="newArtistPathDiv">
+      <div id="newArtistPath">
+      </div>
+    </div>
+
+    <div id="yearPaintingDiv">
+      <div id="yearOfPainting">
+      </div>
+    </div>
+
+    <a href="/">
+      <div id="startOverDiv">
+        <button  id="startOver">start over</button>
+      </div>
+    </a>
+
+
+  </div>
+
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"  crossorigin="anonymous"></script>
+<script src="/static/js/functions.js"></script>
+</body>
+
+<footer class="footer">
+  © 2019 <a href="https://www.sarahfrost.org" target="_blank"> Sarah Frost</a> - <a href="https://www.linkedin.com/in/manumathewthomas/" target="_blank">Manu Mathew Thomas</a>  <br>
+  UI/UX by <a href="https://behance.net/acalderonl" target="_blank">Alejandro Calderón López</a> - <a href="https://www.behance.net/Asfrattini" target="_blank">Anna Sofía Frattini</a><br>
+  </footer>
+
+</html>
