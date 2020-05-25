@@ -67,11 +67,17 @@ I conducted the user tests with Aurora Alparaz, a Cognitive Science undergraduat
  We began each user test with a brief overview of the project. To control for users’ state of minds before looking at the system, we conducted a pre-use PANAS test. After approximately five minutes of use, we stopped each user and conducted a post-use PANAS test. Finally, we asked the user to fill out a survey with several open ended questions. The time instruction with both the pre-use and post-use PANAS tests was “Today: You have felt this way today” [7]. Some general observations we had across the users were that they liked the simple, clean design, they did not look at the information section of the website, and finally, that they chose to like or dislike many pieces of art before clicking “Find Art” and seeing the resulting image. Although we did not track specifically how many pieces of art each user looked at before requesting a result, it was many more than the nine images presented to the user in the original design. In the survey we asked the users, “How many pieces of art should a user like before being presented with a disliked piece of art?” The answers we received were:
 
 > “Probably dozens, maybe hundreds”
+
 > “All of them”
+
 > “Depending on the system...the number should increase as more factors are considered”
+
 > “50”
+
 > “At least 15”
+
 > “5 minimum”
+
 
 This was surprising to me, because I assumed that users would not want to spend a significant amount of time evaluating pieces of art. If I were to do a follow up study, I would track how long users spend looking at each piece of art, and use that to make decisions about the optimal length of the experience. We also asked users to tell us how likely they were to recommend Art I Don’t Like to a friend. On a scale of 1 to 7, with 1 denoting “not at all”, and 7 denoting “very much so” the mean was 2.5. This is lower than I was hoping, and has made me think about redesigning the project again - and considering alternative modes of experience.
 In terms of the positive and negative affect change between the pre- and post-use tests, there was an average decrease of 2.5 points over all 10 positive feelings/emotions, and an average decrease of 4.83 points over all 10 negative feelings/emotions. There was an average increase of .5 points for “curious”. I believe the positive and negative affect change could be related to the stressful events taking place as we conducted the user studies. Although I would have liked to conduct the study with more participants, given the events of the quarter, we did not have enough time to conduct more.
@@ -88,9 +94,8 @@ I accomplished most of what I set out to do this quarter and I’m very pleased 
 
 ## Technical Requirements
 
-Flask
-```pip install flask
-```
+Flask - pip install flask
+
 Anaconda environment with Python 3, keras, tensor flow, pip
 
 
